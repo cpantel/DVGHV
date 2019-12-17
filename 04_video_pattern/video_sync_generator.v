@@ -46,6 +46,14 @@ module video_sync_generator(clk, reset, hsync, vsync, display_on, hpos, vpos);
   
   reg [1:0] prescaler;
   
+  initial begin
+    prescaler = 0;
+    hsync = 0;
+    vsync = 0;
+    hpos = 0;
+    vpos = 0;
+  end
+  
   // horizontal position counter
   always @(posedge clk)
   begin
