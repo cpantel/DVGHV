@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pattern_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pattern_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="79957666666fs"></ZoomStartTime>
+      <ZoomEndTime time="80008466667fs"></ZoomEndTime>
+      <Cursor1Time time="80000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="83"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/pattern_testbench/simul_Clock">
+      <obj_property name="ElementShortName">simul_Clock</obj_property>
+      <obj_property name="ObjectShortName">simul_Clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pattern_testbench/simul_reset">
+      <obj_property name="ElementShortName">simul_reset</obj_property>
+      <obj_property name="ObjectShortName">simul_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pattern_testbench/simul_hsync">
+      <obj_property name="ElementShortName">simul_hsync</obj_property>
+      <obj_property name="ObjectShortName">simul_hsync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/pattern_testbench/simul_vsync">
+      <obj_property name="ElementShortName">simul_vsync</obj_property>
+      <obj_property name="ObjectShortName">simul_vsync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pattern_testbench/simul_RED">
+      <obj_property name="ElementShortName">simul_RED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">simul_RED[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pattern_testbench/simul_GREEN">
+      <obj_property name="ElementShortName">simul_GREEN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">simul_GREEN[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pattern_testbench/simul_BLUE">
+      <obj_property name="ElementShortName">simul_BLUE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">simul_BLUE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/pattern_testbench/pattern/hpos">
+      <obj_property name="ElementShortName">hpos[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hpos[9:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
