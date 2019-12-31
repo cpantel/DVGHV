@@ -21,7 +21,11 @@ module segments_to_bitmap(segments, line, bits);
       4:bits = (segments[3]?5'b11111:0) 
              ^ (segments[4]?5'b00001:0) 
              ^ (segments[2]?5'b10000:0);
-      default:bits = 0;
+      5:bits = 5'b00000;
+      6:bits = 5'b00000;
+      7:bits = 5'b00000;
+      
+      default:bits = 5'b00000;
     endcase
   
 endmodule

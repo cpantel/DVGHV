@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="digits_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="digits_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1250000000fs"></ZoomStartTime>
+      <ZoomEndTime time="2200000001fs"></ZoomEndTime>
+      <Cursor1Time time="2200000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="129"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/digits_testbench/simul_Clock">
+      <obj_property name="ElementShortName">simul_Clock</obj_property>
+      <obj_property name="ObjectShortName">simul_Clock</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/digits_testbench/simul_hsync">
+      <obj_property name="ElementShortName">simul_hsync</obj_property>
+      <obj_property name="ObjectShortName">simul_hsync</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/digits_testbench/simul_vsync">
+      <obj_property name="ElementShortName">simul_vsync</obj_property>
+      <obj_property name="ObjectShortName">simul_vsync</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/digits_testbench/digits/hpos">
+      <obj_property name="ElementShortName">hpos[9:0]</obj_property>
+      <obj_property name="ObjectShortName">hpos[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/digits_testbench/simul_GREEN">
+      <obj_property name="ElementShortName">simul_GREEN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">simul_GREEN[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/digits_testbench/digits/xofs">
+      <obj_property name="ElementShortName">xofs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">xofs[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/digits_testbench/digits/yofs">
+      <obj_property name="ElementShortName">yofs[2:0]</obj_property>
+      <obj_property name="ObjectShortName">yofs[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/digits_testbench/digits/bits">
+      <obj_property name="ElementShortName">bits[4:0]</obj_property>
+      <obj_property name="ObjectShortName">bits[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

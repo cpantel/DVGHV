@@ -2,22 +2,21 @@
 
 module digits_testbench;
   reg simul_Clock;
-  reg simul_reset_button;
+  reg simul_reset;
   wire simul_hsync;
   wire simul_vsync;
-  wire simul_GREEN;
-  wire simul_RED;
-  wire simul_BLUE;
+  wire [3:0]simul_RED;
+  wire [3:0]simul_GREEN;
+  wire [3:0]simul_BLUE;
 
   initial begin
     simul_Clock = 1'b0;
     forever simul_Clock = #1 ~simul_Clock;
-   // $display("0x%0h 0x%0h 0x%0h 0x%0h", simul_Clock, simul_hsync, simul_vsync, simul_GREEN);
   end
 
   initial begin
-    simul_reset_button = 1'b1;
-    #100 simul_reset_button = 1'b0;
+    simul_reset = 1'b1;
+    #100 simul_reset = 1'b0;
   end
 
   initial begin
@@ -33,12 +32,12 @@ module digits_testbench;
 
   digits digits (
     .Clock(simul_Clock),
-    .reset(simul_reset_button),
+    .reset(simul_reset),
     .hsync(simul_hsync),
     .vsync(simul_vsync),
-    .GREEN(simul_GREEN),
-    .RED(simul_RED),
-    .BLUE(simul_BLUE)
+    .VGA_R(simul_RED),
+    .VGA_G(simul_GREEN),
+    .VGA_B(simul_BLUE)
   );
 
 
