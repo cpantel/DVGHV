@@ -1,1 +1,3 @@
-More details at https://seguridad-agile.blogspot.com/2019/12/vga-rendering-de-simulacion-fpga.html
+Steven Hugg's "Designing Video Game Hardware in Verilog Paperback" examples adapted from his online simulator to Nexys4DDR and Vivado 2018.2.
+
+More details soon at https://seguridad-agile.blogspot.com
